@@ -1,0 +1,22 @@
+mixin fullform()
+    h3
+        | Остались вопросы? Свяжитесь с нами
+    form.full_form
+        .form-group
+            label(for='nameInput') Ваше имя
+            input#nameInput.form-control(type='name' placeholder='Имя')
+        .form-group
+            label(for='phoneNumber') Телефон
+            input#phoneNumber.form-control(type='phone' placeholder='Ваш телефон')
+        .form-group
+            label(for='formSelect') Какой займ вы хотите взять?
+            select#formSelect.form-control
+                option 1
+                option 2
+                option 3
+                option 4
+                option 5
+        .form-group
+            label(for='formTextarea') Ваше сообщение(не обязательно)
+            textarea#formTextarea.form-control(rows='3')
+        button.btn.btn-success.btn-lg(type="submit") Отправить заявку 

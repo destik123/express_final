@@ -1,0 +1,23 @@
+extends layout
+
+block header
+  include common/header.pug
+  +header()
+
+block nav
+  include common/nav.pug
+  +nav()
+
+block content
+  section.section-service
+    .container 
+      .section-service__content
+        .section-service__content-left
+          .section-service__content-left-title
+            h1=title
+          .section-service__content-left-text
+            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, delectus! Dignissimos, iusto dolor nemo aspernatur cum modi illo suscipit, molestias cupiditate esse, animi doloremque ex facere dicta debitis nam veniam!
+        .section-service__content-right
+          .section-service__content-right-img
+            img(src="", alt="Займ под ПТС")
+

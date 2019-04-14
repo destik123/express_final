@@ -1,0 +1,281 @@
+.modal-backdrop.show {
+  z-index: 0; }
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1em;
+}
+
+.full_form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.section-service {
+  padding: 80px 0;
+}
+  .section-service__content {
+    display: flex;
+  }
+    .section-service__content-left {
+      flex: 1;
+    }
+    .section-service__content-right {
+      flex: 1;
+    }
+.section-header {
+  position: relative;
+  background: url(../images/banner.jpg) no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0; }
+  .section-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+    background-color: rgba(20, 39, 41, 0.75); }
+  .section-header__content {
+    text-transform: uppercase;
+    position: relative;
+    z-index: 10;
+    color: #fff;
+    text-align: center; }
+    .section-header__content h1 {
+      font-size: 5rem; }
+  .section-header #basicModal {
+    color: black;
+    text-transform: uppercase; }
+    .section-header #basicModal button {
+      text-transform: uppercase; }
+    .section-header #basicModal input:invalid {
+      border: 2px solid red; }
+    .section-header #basicModal input:valid {
+      border: 2px solid green; }
+
+.navbar {
+  text-transform: uppercase;
+}
+  .navbar-text {
+    display: flex !important; 
+    align-items: center;
+    font-size: 1.4rem;
+  }
+    .navbar-text i {
+      margin-right: 0.4rem;
+      color: green;
+    }
+      
+.section-about {
+  padding-top: 80px;}
+  .section-about__inter {
+    display: flex;
+    flex-direction: column; }
+    .section-about__inter-title {
+      text-transform: uppercase;
+      text-align: center; }
+      .section-about__inter-title h2 {
+        font-size: 3.5em;
+        line-height: 2em; }
+    .section-about__inter-text {
+      display: flex;
+      flex-direction: column; }
+      .section-about__inter-text-description {
+        width: 60%; }
+        .section-about__inter-text-description-head {
+          margin-bottom: 2rem;
+        }
+        .section-about__inter-text-description-paragraph {
+          font-size: 1.2em;
+          text-align: justify;
+        }
+          .section-about__inter-text-description-paragraph p {
+            margin: 0.5rem 0rem;
+          }
+      .section-about__inter-text-img {
+        margin-top: -100px; }
+        .section-about__inter-text-img img {
+          width: 60%;
+          float: right;
+          min-width: 450px;
+          height: auto; }
+  .section-about__features {
+    padding-top: 110px;
+    padding-bottom: 100px;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0% 28%);
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0% 28%);
+    color: #fff;
+    background-color: rgba(20, 39, 41, 0.95);
+     }
+    .section-about__features-title {
+      margin-bottom: 4rem;
+      text-align: right;
+    }
+      .section-about__features-title h2 {
+        font-size: 3rem;
+      }
+    .section-about__features-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+      .section-about__features-content-element {
+        width: 250px;
+        text-align: center;
+      }
+        .section-about__features-content-element-icon {
+          color: #f1cd69;
+          margin-bottom: 1rem;
+        }
+.section-form {
+  padding: 20px 1rem;
+  position: relative;
+}
+  .section-form__title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .section-form:after {
+    content: '';
+    border: 2px solid #28a745;
+    width: 40%;
+    left: 30%;
+    top: 100%;
+    position: absolute;
+    z-index: 1;
+  }
+
+.hr-hor {
+  background-image: -webkit-linear-gradient(left, rgba(244,67,54,.8), rgba(244,67,54,.6), rgba(0,0,0,0));
+}
+
+.section-questions {
+  padding: 60px 0;
+}
+  .section-questions h2 {
+    margin-bottom: 1em;
+    font-size: 3rem;
+  }
+  .section-questions__content {
+    
+  }
+    .section-questions__content .card {
+      border-radius: 0;
+      margin-bottom: 0.2em;
+    }
+      .section-questions__content .card .card-header {
+        font-size: 1.5rem;
+      }
+      .section-questions__content .card .card-block {
+        font-size: 1.2rem;
+        padding: 0.5em;
+      }
+#myFooter{
+  padding-top:32px;
+  text-transform: uppercase;
+}
+
+#myFooter .container{
+  text-align: center;
+}
+
+#myFooter .footer-copyright{
+  margin-bottom: 35px;
+  text-align: center;
+  color: #777;
+}
+
+#myFooter ul{
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 18px;
+}
+
+#myFooter a{
+  color: #282b2d;
+  font-size: 18px;
+}
+
+#myFooter li{
+  display: inline-block;
+  margin: 0px 15px;
+  line-height: 2;
+}
+
+#myFooter .footer-social{
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #eee;
+}
+
+#myFooter .fa{
+  font-size: 36px;
+  margin-right: 15px;
+  margin-left: 20px;
+  background-color: white;
+  color: #d0d0d0;
+  border-radius: 51%;
+  padding: 10px;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  line-height: 43px;
+  text-decoration: none;
+  transition:color 0.2s;
+}
+
+#myFooter .fa-vk:hover{
+  color: #2b55ff;
+}
+
+#myFooter .fa-vk:focus{
+  color: #2b55ff; 
+}
+
+#myFooter .fa-instagram:hover{
+  color:pink;
+}
+
+#myFooter .fa-instagrams:focus{
+  color:pink;
+}
+
+#myFooter{
+  flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
+}
+
+@media (max-width: 1000px) {
+  .section-about__features {
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0% 18%);
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0% 18%);
+  }
+}
+
+@media (max-width: 800px) {
+  .section-about__features {
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0% 8%);
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0% 8%);
+  }
+  .full_form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-about__inter-text-description {
+    width: 100%; }
+  .section-about__inter-text-img {
+    margin-top: 0;}
+  .full_form {
+    width: 100%;
+  }
+}

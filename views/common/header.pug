@@ -1,0 +1,32 @@
+mixin header()
+  section.section-header
+        .container
+          .section-header__content
+            .section-header__content-title
+              h1 Займ в Перми
+              h2 Дадим деньги в залог от 5% по лучшим условиям в городе
+              p Оставьте заявку и мы обязательно вам перезвоним
+            .section-header__content-btn
+              a.btn.btn-lg.btn-success(href="#" data-toggle="modal" data-target="#basicModal")
+                | Отправить заявку
+              #basicModal.modal.fade(tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true")
+                .modal-dialog
+                  .modal-content
+                    .modal-header
+                      h4#myModalLabel.modal-title Оставьте заявку
+                      button.close(type="button" data-dismiss="modal" aria-label="Close")
+                      span(aria-hidden="true") ×
+                    .modal-body
+                      form.form(role="form" autocomplete="off")
+                        fieldset
+                          label.mb-0(for="name") Ваше Имя
+                          .row.mb-1
+                          .col-lg-12
+                          input#name.form-control(type="text" name="name" required="")
+                          label.mb-0(for="phone") Ваш телефон
+                          .row.mb-1
+                          .col-lg-12
+                          input#phone.form-control(type="text" name="phone" required="")
+                    .modal-footer
+                      button.btn.btn-default(type="button" data-dismiss="modal") закрыть окно
+                      button.btn.btn-success(type="button") отправить заявку

@@ -1,0 +1,12 @@
+mixin form
+    .section-form
+        .section-form__title
+            h2  Заполните заявку и мы вам перезвоним
+        form.form-inline.justify-content-center
+            label.sr-only(for='inlineFormInputName2') Name
+            input#inlineFormInputName2.form-control.mb-2.mr-sm-2(type='text' placeholder='Ваше имя')
+            label.sr-only(for='inlineFormInputGroupUsername2') Username
+            .input-group.mb-2.mr-sm-2
+                input#inlineFormInputGroupUsername2.form-control(type='text' placeholder='Ваш телефон')
+            button.btn.btn-success.mb-2(type='submit') Оставить заявку
+        

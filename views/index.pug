@@ -1,0 +1,101 @@
+extends layout
+
+block header
+  include common/header.pug
+  +header()
+
+block nav
+  include common/nav.pug
+  +nav()
+  
+block content
+  section.section-about
+    .container
+      .section-about__inter
+        .section-about__inter-title
+          h2 О нас
+        .section-about__inter-text
+          .section-about__inter-text-description
+            .section-about__inter-text-description-head
+              h3 Самые выгодные займы в Перми и Пермском крае!
+            .section-about__inter-text-description-paragraph
+              p
+                | Мы предлагаем низкий процент и множество вариантов займов, найдем подход к каждому клиенту!
+              p
+                | Мы работаем с большинством компаний и инвесторов, поэтому предлагаем самые выгодные условия для займа. 
+          .section-about__inter-text-img
+            img(src="images/about_img2.png" alt="Займы в Перми")
+    .section-about__features
+      .container
+        .section-about__features-title
+          h2 Почему займ выгоден у нас?
+        .section-about__features-content
+          .section-about__features-content-element
+            .section-about__features-content-element-icon
+              <i class="fas fa-book fa-4x"></i>
+            .section-about__features-content-element-title
+              h3
+                | Удобство
+            .section-about__features-content-element-text
+              p
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magnam necessitatibus iste quaerat itaque dolorum dignissimos et unde repellendus ducimus. Enim numquam nisi maiores odio corrupti sed unde, at molestiae!
+          .section-about__features-content-element
+            .section-about__features-content-element-icon
+              <i class="fas fa-percentage fa-4x"></i>
+            .section-about__features-content-element-title
+              h3
+                | Низкие проценты
+            .section-about__features-content-element-text
+              p
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magnam necessitatibus iste quaerat itaque dolorum dignissimos et unde repellendus ducimus. Enim numquam nisi maiores odio corrupti sed unde, at molestiae!
+          .section-about__features-content-element
+            .section-about__features-content-element-icon
+              <i class="fas fa-comment-dollar fa-4x"></i>
+            .section-about__features-content-element-title
+              h3
+                | Множество способов займа
+            .section-about__features-content-element-text
+              p
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magnam necessitatibus iste quaerat itaque dolorum dignissimos et unde repellendus ducimus. Enim numquam nisi maiores odio corrupti sed unde, at molestiae!
+          .section-about__features-content-element
+            .section-about__features-content-element-icon
+              <i class="fas fa-splotch fa-4x"></i>
+            .section-about__features-content-element-title
+              h3
+                | Лояльность
+            .section-about__features-content-element-text
+              p
+                | Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magnam necessitatibus iste quaerat itaque dolorum dignissimos et unde repellendus ducimus. Enim numquam nisi maiores odio corrupti sed unde, at molestiae!
+  
+  include common/form.pug
+  +form()
+
+  .section-questions
+    .container
+      h2 Часто задаваемые вопросы
+      .section-questions__content
+        .card
+          .card-header
+            | Quote
+          .card-block
+            blockquote.card-blockquote
+              p
+                | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+        .card
+          .card-header
+            | Quote
+          .card-block
+            blockquote.card-blockquote
+              p
+                | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+        .card
+          .card-header
+            | Quote
+          .card-block
+            blockquote.card-blockquote
+              p
+                | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+
+
+
+

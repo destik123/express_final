@@ -1,0 +1,24 @@
+mixin nav
+  nav.navbar.sticky-top.navbar-expand-lg.navbar-light.bg-light.justify-content-between
+        a.navbar-brand(href='#') 
+          img(src="images/Money-Bag.png", width="60" height="60" class="d-inline-block align-top" alt="")
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarSupportedContent.collapse.navbar-collapse
+          ul.navbar-nav.mr-auto
+            li.nav-item.active
+              a.nav-link(href='/')
+                | Главная
+                span.sr-only (current)
+            li.nav-item
+              a.nav-link(href='/zaimpodpts') Займ под ПТС
+            li.nav-item
+              a.nav-link(href='#') Займ под недвижимость
+            li.nav-item
+              a.nav-link(href='#') Займ под паспорт
+            li.nav-item
+              a.nav-link(href='#') Займ под ваше имущество
+          span.navbar-text
+            i.fas.fa-phone.fa-lg
+            |  +7542345524
+            
